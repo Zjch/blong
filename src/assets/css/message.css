@@ -1,0 +1,21 @@
+.message_box{
+    background: #fff;
+    max-width: 1200px;
+    margin: 15px auto;
+}
+.message_item{
+    padding: 35px 15px;
+    border-bottom: 2px solid #eee;
+}
+.message_item p{
+    min-height: 80px;
+    text-indent: 2em;
+    font-size: 14px;
+}
+.message_time{
+    text-align: left;
+}
+.message_submit{
+    margin-top: 10px;
+}
+

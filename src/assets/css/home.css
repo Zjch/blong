@@ -1,0 +1,32 @@
+.home_box{
+    position: relative;
+    overflow: hidden;
+}
+.home_box img{
+    width: 100%;
+    float: left;
+}
+.home_box_class{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    background: rgba(0, 0, 0, .5);
+    text-align: center;
+}
+.home_box_class span{
+    color: #fff;
+    line-height: 80px;
+    font-size: 16px;
+    padding: 0 20px;
+}
+.home_box_class span a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.home_content{
+    max-width: 1200px;
+    margin: 0 auto;
+}
