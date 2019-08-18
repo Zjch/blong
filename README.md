@@ -1,68 +1,49 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+这是一个简单的react练手小demo（个人博客）
 
-## Available Scripts
+## 项目下载及运行
 
-In the project directory, you can run:
+将项目下载在本地之后,你需要依次进行命令行操作:
 
-### `npm start`
+### `yarn add`
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+因为这个项目使用的是yarn进行包管理的，当然你可以使用npm<br>
+下载项目依赖
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+### `yarn start`
 
-### `npm test`
+运行项目,项目运行完成之后,可打开本地 http://localhost:3000/ 或者 http://192.168.4.115:3000/ 查看
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### `yarn build`
 
-### `npm run build`
+项目打包,会在项目根目录生成build的文件夹<br>
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## src文件夹模块划分
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+根据目前的编码经验,进行了一个模块化,公共组件的抽离 =.=
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### /assets
 
-### `npm run eject`
+静态资源文件夹,放一些,图片之类的
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### /components
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+公共组件文件夹,放抽离出来的一些公共组件
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### /router
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+路由文件夹,封装的路由js文件,类似vue的路由js
 
-## Learn More
+### /tool
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+工具文件夹,放一些类似时间戳转化的js小工具
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### /views
 
-### Code Splitting
+页面文件夹,项目页面<br>
+可以根据项目模块在进行细化分类
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+## 使用了antd UI,根据antd文档配置了按需加载
 
-### Analyzing the Bundle Size
+## 地址栏输入http://localhost:3000/markdown,可进入基于 react 开发的 makedown 编辑器 --> for-editor
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+使用箭头函数,O(∩_∩)O哈哈~
