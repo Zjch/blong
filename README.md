@@ -44,6 +44,8 @@
 
 ## 使用了antd UI,根据antd文档配置了按需加载
 
-## 地址栏输入http://localhost:3000/markdown,可进入基于 react 开发的 makedown 编辑器 --> for-editor
+## 地址栏输入http://localhost:3000/markdown,可进入基于 react 开发的 markdown 编辑器 --> for-editor
 
-使用箭头函数,O(∩_∩)O哈哈~
+使用箭头函数,O(∩_∩)O哈哈~ <br>
+
+### 使用react-markdown,进行解析 markdown 语法
